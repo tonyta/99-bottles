@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require "bundler/setup"
+
+$LOAD_PATH.unshift Pathname.pwd/"lib"
+require "99-bottles"
+
+require "pry"
+Pry.start
